@@ -17,9 +17,9 @@ include_once 'acera-options/options-init.php';
 if ( function_exists( 'register_nav_menus' ) ) {
 	register_nav_menus(
 		array(
-			'Header Menu' => 'Header menu',
-			'Footer Menu' => 'Menu do rodapé',
-			'Side Menu'   => 'Menu Lateral',
+			'header_menu' => 'Header menu',
+			'footer_menu' => 'Menu do rodapé',
+			'side_menu'   => 'Menu Lateral',
 		)
 	);	
 }

@@ -220,9 +220,10 @@
 
 					
 
-								<span class="logo_normal" style="background: url('<?php echo get_option('header_normal_logo') ?>') left center transparent no-repeat; background-size: contain;"></span>
+								<!-- <span class="logo_normal" style="background: url('<?php echo get_option('header_normal_logo') ?>') left center transparent no-repeat; background-size: contain;"></span> -->
+                                <span class="logo_normal" style="background: url('http://www.dalwer.com.br/wp-content/uploads/2013/06/logo2.png') left center transparent no-repeat; background-size: contain;"></span>
 
-								<img class="logo_mobile" style="margin:0 auto;" src="<?php echo $logo; ?>" />
+								<img class="logo_mobile" style="margin:0 auto;" src="http://www.dalwer.com.br/wp-content/uploads/2013/06/logo1.png" />
 
 								
 
@@ -253,29 +254,17 @@
 					<?php	$menuargs = array(
 
                                 'menu' 				=> 'header_menu',
-
-                                'theme_location' 	=> '',
-
+                                'theme_location' 	=> 'header_menu',
                                 'container' 		=> false,
-
                                 'menu_class' 		=> false,
-
                                 'echo' 				=> true,
-
                                 'menu_id' 			=> false,
-
                                 'before' 			=> '',
-
                                 'after' 			=> '<span></span>',
-
                                 'link_before' 		=> '',
-
                                 'link_after' 		=> '',
-
                                 'depth' 			=> 0,
-
                                 'walker' 			=> '',
-
                             );	
 
 							
